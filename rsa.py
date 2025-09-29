@@ -58,7 +58,7 @@ def decrypt(private_key, cipher_list):
         m = (el ** d_private) % n
         bucva = alf_lat_assi[m]
         result += bucva
-    return result
+    return result#dihfgoiufghoudgudgfo 
 def encrypt(public_key, text):
     if public_key == 0:
         return ''
